@@ -27,18 +27,14 @@ class Person {
 
 class Main {
     public static void main(String[] args) {
-        // Create an object of Person class
         Person person = new Person();
 
-        // Set values using setters
         person.setName("John");
         person.setAge(30);
 
-        // Get values using getters
         System.out.println("Person's Name: " + person.getName());
         System.out.println("Person's Age: " + person.getAge());
 
-        // Display person info
         person.displayInfo();
 
     }
