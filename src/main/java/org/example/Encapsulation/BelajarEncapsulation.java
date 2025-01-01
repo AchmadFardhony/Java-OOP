@@ -3,29 +3,22 @@ package org.example.Encapsulation;
 public class BelajarEncapsulation {}
 
 class Person {
-        // Step 1: Private variables
         private String name;
         private int age;
 
-        // Step 2: Getter and Setter for name
         public String getName() {
             return name;
         }
-
         public void setName(String name) {
             this.name = name;
         }
-
-        // Step 3: Getter and Setter for age with validation
         public int getAge() {
             return age;
         }
-
         public void setAge(int age) {
             this.age = age;
         }
 
-    // Additional method to display information
     public void displayInfo() {
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
